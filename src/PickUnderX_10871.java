@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class PickNumberUnder5 {
+public class PickUnderX_10871 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,7 +2,7 @@
 // 내가 작성한 식과 코드의 간결성의 차이를 확인할 것!
 import java.util.Scanner;
 
-public class TimeCal {
+public class Early45Time_2884 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

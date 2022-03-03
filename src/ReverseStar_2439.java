@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ReverseStar {
+public class ReverseStar_2439 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
