@@ -1,33 +1,33 @@
-import java.util.Scanner;
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.ListIterator;
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        // 컬렉션 생성
+        ArrayList<String> list = new ArrayList<>();
+        list.add("A");
+        list.add("B");
+        list.add("C");
+        list.add("D");
+        list.add("F");
+        System.out.println("while문을 지나기 전 리스트에 들어있던 값 : " + list);
 
-        int[] arr = new int[9];
-
-        int index = 0;
-        int max = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
+        // 리스트에 들어있는 각각의 값에 '+' 붙이기
+        ListIterator<String> listIterator = list.listIterator();
+        while (listIterator.hasNext()) {
+            Object element = listIterator.next();
+            listIterator.set(element + "+");
         }
-        sc.close();
+        System.out.println("while문을 지난 후 수정된 결과 : " + list);
 
-            for (int j = 0; j < arr.length; j++) {
-                if (max < arr[j]) {
-                    max = arr[j]; // 최대값으로 지정해서 저장
-//                    System.out.printf("max = arr[%d] = %d\n", j, arr[j]);
-
-                    index = j; // 저장된 최소값을 바탕으로 몇번째 인덱스인지 저장
-//                    System.out.printf("index = %d\n", j);
-//                    System.out.println(arr[0] + " " + arr[1] + " " + arr[2] + " " + arr[3] + " " + arr[4] + " " + arr[5] + " " + arr[6] + " " + arr[7] + " " + arr[8]);
-//                    System.out.println(" "); // 정렬된 배열 출력하기
-            }
+        // 리스트에 들어있는 값을 역순으로 표시
+        System.out.print("역순 출력 결과 : ");
+        while (listIterator.hasPrevious()) {
+            Object element = listIterator.previous();
+            System.out.print(element + " ");
         }
-        System.out.println(arr[index]);
-        System.out.println(index + 1);
+        System.out.println();
     }
 }
-
