@@ -23,6 +23,7 @@ public class Early45Time_2884 {
             System.out.println(x + " " + y);
         }*/
 
+
         if (y < 45) {
             x--; //시간 감소
             y = 60 - (45 - y); // 분 감소

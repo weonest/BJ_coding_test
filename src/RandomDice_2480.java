@@ -12,6 +12,7 @@ public class RandomDice_2480 {
         int dice2 = Integer.parseInt(st.nextToken());
         int dice3 = Integer.parseInt(st.nextToken());
 
+
         if (dice1 == dice2 && dice1 == dice3) {
             System.out.println(10000 + (dice1 * 1000));
         } else if (dice1 == dice2 || dice1 == dice3) {

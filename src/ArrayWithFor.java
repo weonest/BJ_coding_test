@@ -22,6 +22,7 @@ public class ArrayWithFor {
                     arr[i] = arr[j]; // [i]값에 [j]값 저장       스와핑
 //                 #2 System.out.printf("arr[i = %d] : ", i);
 //                    System.out.println(arr[i]);
+
                     arr[j] = temp; // [j]값에 temp값 저장        스와핑
 //                 #3 System.out.printf("arr[j = %d] : ", j);
 //                    System.out.println(arr[j]);

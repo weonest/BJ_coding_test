@@ -20,6 +20,7 @@ public class ReverseStar_2439 {
 //            System.out.println(" ");
 //        }
 
+
         // 2
 //        for (int i = 1; i <= a; i++) {
 //            for (int j = a; j > 0; j--) {

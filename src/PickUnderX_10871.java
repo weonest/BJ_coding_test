@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class PickUnderX_10871 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         // 내 풀이
         int N = sc.nextInt();
         int X = sc.nextInt();

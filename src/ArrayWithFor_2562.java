@@ -16,6 +16,7 @@ public class ArrayWithFor_2562 {
         sc.close();
 
         for (int j = 0; j < arr.length; j++) {
+
             if (max < arr[j]) {
                 max = arr[j]; // 최대값으로 지정해서 저장
 //                  System.out.printf("max = arr[%d] = %d\n", j, arr[j]);
